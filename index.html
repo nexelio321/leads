@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Leads in India</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Find Business Contacts in Your Area</h2>
+        <label for="location">Enter Location (City, State):</label>
+        <input type="text" id="location" placeholder="e.g., Mumbai, Delhi" required>
+
+        <label for="niche">Select Business Type:</label>
+        <select id="niche">
+            <option value="digital-marketing">Digital Marketing</option>
+            <option value="real-estate">Real Estate</option>
+            <option value="restaurants">Restaurants</option>
+            <option value="doctors">Doctors</option>
+            <option value="gyms">Gyms</option>
+        </select>
+
+        <button onclick="fetchLeads()">Search Leads</button>
+
+        <div id="results"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
