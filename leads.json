@@ -1,0 +1,23 @@
+[
+    {
+        "name": "XYZ Digital Marketing",
+        "phone": "+91 9876543210",
+        "website": "https://xyzdigital.com",
+        "location": "mumbai",
+        "niche": "digital-marketing"
+    },
+    {
+        "name": "ABC Real Estate",
+        "phone": "+91 9123456789",
+        "website": "https://abcrealestate.com",
+        "location": "delhi",
+        "niche": "real-estate"
+    },
+    {
+        "name": "Best Restaurant",
+        "phone": "+91 8765432109",
+        "website": "https://bestrestaurant.in",
+        "location": "bangalore",
+        "niche": "restaurants"
+    }
+]
